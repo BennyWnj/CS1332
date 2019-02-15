@@ -59,7 +59,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
         }
         size = data.size();
         for (int i = size / 2; i > 0; i--) {
-            DownHeap(backingArray[i], i);
+            downHeap(backingArray[i], i);
         }
     }
 
@@ -69,7 +69,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
      * @param data data passed in
      * @param index the index of the data
      */
-    private void DownHeap(T data, int index) {
+    private void downHeap(T data, int index) {
         if (index > size / 2) {
             return;
         }
@@ -91,7 +91,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
         }
         if (max.compareTo(data) > 0) {
             swap(in, index);
-            DownHeap(backingArray[in], in);
+            downHeap(backingArray[in], in);
         }
     }
 
@@ -126,7 +126,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
             backingArray = temp;
         }
         backingArray[size + 1] = item;
-        UpHeap(item, size + 1);
+        upHeap(item, size + 1);
         size++;
     }
 
@@ -136,7 +136,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
      * @param data the data passed in
      * @param index the index of the data
      */
-    private void UpHeap(T data, int index) {
+    private void upHeap(T data, int index) {
         if (index == 1) {
             return;
         }
@@ -145,7 +145,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
         } else {
             swap(index, index / 2);
         }
-        UpHeap(data, index / 2);
+        upHeap(data, index / 2);
     }
 
     /**
@@ -164,7 +164,7 @@ public class MaxHeap<T extends Comparable<? super T>> {
         backingArray[1] = backingArray[size];
         backingArray[size] = null;
         size--;
-        DownHeap(backingArray[1], 1);
+        downHeap(backingArray[1], 1);
         return data;
     }
 
