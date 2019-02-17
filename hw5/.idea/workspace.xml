@@ -3,8 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="27327e29-0453-4c14-9761-a20ac4a7e1d4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/MaxHeap.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/MaxHeap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MaxHeap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MaxHeap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/APEMaxHeapAPETest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/APEMaxHeapAPETest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../llx/2018+Fall+-+Week+07.pdf" beforeDir="false" afterPath="$PROJECT_DIR$/../llx/2018+Fall+-+Week+07.pdf" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -22,26 +22,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MaxHeap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1256">
-              <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-              <folding>
-                <element signature="e#5537#5538#0" expanded="true" />
-                <element signature="e#5594#5595#0" expanded="true" />
-                <element signature="e#5751#5752#0" expanded="true" />
-                <element signature="e#5783#5784#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="477">
+              <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/APEMaxHeapAPETest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
-              <caret line="227" column="33" lean-forward="true" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
+            <state relative-caret-position="363">
+              <caret line="230" column="25" lean-forward="true" selection-start-line="230" selection-start-column="25" selection-end-line="230" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -49,7 +43,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/MaxHeapStudentTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
+            <state relative-caret-position="255">
               <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
             </state>
           </provider>
@@ -57,14 +51,19 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>DownHeap</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/APEMaxHeapAPETest.java" />
         <option value="$PROJECT_DIR$/src/main/java/MaxHeap.java" />
+        <option value="$PROJECT_DIR$/src/test/java/APEMaxHeapAPETest.java" />
       </list>
     </option>
   </component>
@@ -80,6 +79,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -122,7 +122,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -132,7 +131,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550263429137" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1550421226846" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
@@ -149,7 +148,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.APEMaxHeapAPETest">
+  <component name="RunManager" selected="JUnit.MaxHeapStudentTests (1)">
     <configuration name="APEMaxHeapAPETest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edu.gatech.cs1332.hw5.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -169,6 +168,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MaxHeapStudentTests (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="edu.gatech.cs1332.hw5.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="MaxHeapStudentTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MaxHeapStudentTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="edu.gatech.cs1332.hw5.main" />
       <option name="PACKAGE_NAME" value="" />
@@ -180,6 +188,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MaxHeapStudentTests (1)" />
         <item itemvalue="JUnit.APEMaxHeapAPETest" />
         <item itemvalue="JUnit.APEMaxHeapAPETest.gtestRemove" />
         <item itemvalue="JUnit.MaxHeapStudentTests" />
@@ -209,17 +218,12 @@
       <workItem from="1550151343858" duration="14000" />
       <workItem from="1550165386464" duration="5308000" />
       <workItem from="1550239229302" duration="2281000" />
-      <workItem from="1550262227502" duration="975000" />
+      <workItem from="1550262227502" duration="1224000" />
+      <workItem from="1550421142491" duration="13000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="APEMaxHeapAPETest_gtestRemove - 2019.02.15 at 10h 01m 53s.xml">
-      <configuration name="APEMaxHeapAPETest.gtestRemove" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="APEMaxHeapAPETest - 2019.02.15 at 10h 04m 46s.xml">
-      <configuration name="APEMaxHeapAPETest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="APEMaxHeapAPETest_gtestRemove - 2019.02.15 at 10h 07m 10s.xml">
       <configuration name="APEMaxHeapAPETest.gtestRemove" configurationId="JUnit" />
     </history-entry>
@@ -244,15 +248,21 @@
     <history-entry file="APEMaxHeapAPETest_gtestRemove - 2019.02.15 at 15h 39m 58s.xml">
       <configuration name="APEMaxHeapAPETest.gtestRemove" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="APEMaxHeapAPETest - 2019.02.15 at 15h 41m 10s.xml">
+      <configuration name="APEMaxHeapAPETest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="APEMaxHeapAPETest - 2019.02.15 at 15h 43m 51s.xml">
+      <configuration name="APEMaxHeapAPETest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8578000" />
+    <option name="totallyTimeSpent" value="8840000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16738197" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1695279" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -262,15 +272,15 @@
       <window_info id="Learn" order="7" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3060241" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3060241" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.31084338" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Build" order="7" visible="true" weight="0.329235" />
-      <window_info anchor="bottom" id="Terminal" order="8" weight="0.32891566" />
+      <window_info anchor="bottom" id="Terminal" order="8" visible="true" weight="0.23614457" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="CheckStyle" order="10" />
+      <window_info anchor="bottom" id="CheckStyle" order="10" weight="0.32891566" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" weight="0.32891566" />
@@ -303,30 +313,24 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/java/MaxHeap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="128" column="14" selection-start-line="128" selection-start-column="14" selection-end-line="128" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/MaxHeapStudentTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="255">
           <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/APEMaxHeapAPETest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="227" column="33" lean-forward="true" selection-start-line="227" selection-start-column="33" selection-end-line="227" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MaxHeap.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1256">
-          <caret line="90" column="9" selection-start-line="90" selection-start-column="9" selection-end-line="90" selection-end-column="9" />
-          <folding>
-            <element signature="e#5537#5538#0" expanded="true" />
-            <element signature="e#5594#5595#0" expanded="true" />
-            <element signature="e#5751#5752#0" expanded="true" />
-            <element signature="e#5783#5784#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="363">
+          <caret line="230" column="25" lean-forward="true" selection-start-line="230" selection-start-column="25" selection-end-line="230" selection-end-column="25" />
         </state>
       </provider>
     </entry>

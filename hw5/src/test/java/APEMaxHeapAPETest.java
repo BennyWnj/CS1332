@@ -225,9 +225,9 @@ public class APEMaxHeapAPETest {
         }
 //        System.out.println(studentHeap.toString());
         for (int i = 14; i >= 0; i--) {
-            studentHeap.remove();
+//            studentHeap.remove();
 //            System.out.println(studentHeap.getMax());
-//            assertEquals("Remove returns incorrect value", (Integer) i, studentHeap.remove());
+            assertEquals("Remove returns incorrect value", (Integer) i, studentHeap.remove());
             assertEquals("size not correctly updated", i, studentHeap.size());
         }
 

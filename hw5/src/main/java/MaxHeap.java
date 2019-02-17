@@ -2,9 +2,9 @@ import java.util.ArrayList;
 /**
  * Your implementation of a max heap.
  *
- * @author YOUR NAME HERE
- * @userid YOUR USER ID HERE (i.e. gburdell3)
- * @GTID YOUR GT ID HERE (i.e. 900000000)
+ * @author Bingyao Wang
+ * @userid bwang404
+ * @GTID 903406074
  * @version 1.0
  */
 public class MaxHeap<T extends Comparable<? super T>> {
